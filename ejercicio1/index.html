@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="bootstrap.min.css"><!-- tema morph -->
+    <link rel="stylesheet" href="index.js"><!-- Javascript -->
+</head>
+<body>
+        
+    <nav class="navbar navbar-dark bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+        </div>
+    </nav>
+
+<div class="container mt-3">
+    <div class="row"><!-- LIMITE DE COL es 12 sino pasaran debajo las columnas -->
+        <div class="col-8"> <!-- de 12 toma 8 col -->
+            <div class="mb-3">
+                <div class="form-label">Cateto opuesto</div>
+                <input id="inp_dato1" class="form-control btn-Secondary" type="text" placeholder="Ingrese valor C.A">
+            </div>
+    
+        
+            <div class="mb-3">
+            <div class="form-label">Cateto adyacente </div>
+            <input id="inp_dato2"class="form-control btn-Secondary" type="text" placeholder="Ingrese valor C.O">
+            </div>
+            <div id="btn-calcular1" class="btn btn-info">aceptar</div>
+    
+    
+            </div>
+        <div class="col-4"> <!-- de 12 toma 4 col -->
+            <h3 id="h_resultado"></h3>
+        </div>
+    </div>
+
+</div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
