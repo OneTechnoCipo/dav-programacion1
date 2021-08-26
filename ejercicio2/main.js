@@ -1,8 +1,4 @@
-/* function calcular (x){
-    let dato =10;
-    return x;
-} */
-
+/* TP 2 */
 const calcular=()=>{ 
     const datoa = document.getElementById("inp_a").value; /* (const) constante no varia el dato y (let) si el dato solo vive en un proceso */
     const datob = document.getElementById("inp_b").value; /* (const) constante no varia el dato y (let) si el dato solo vive en un proceso */
