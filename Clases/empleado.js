@@ -1,4 +1,4 @@
-export default class Empleado {
+export default class Empleado {/* class virtual */
     nombre = '';
     apellido = '';
 

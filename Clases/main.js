@@ -1,4 +1,4 @@
-import Empleado from './empleado.js'
+import Empleado from './empleado.js'/* clase virtual */
 const mostrar_datos = () => {
 
     const nom = document.getElementById("inp_nombre").value;
