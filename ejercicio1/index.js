@@ -1,4 +1,4 @@
-/* function calcular (x){
+/* function calcular (x){Ejercicio 1
     let dato =10;
     return x;
 } */
