@@ -1,4 +1,4 @@
-/* Tp1 POO */
+/* Tp1 POO. */
 export default class Bhaskara{
     ca;
     cb;

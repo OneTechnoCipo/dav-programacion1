@@ -1,4 +1,4 @@
-import Bhaskara from "./bhaskara.js";
+import Bhaskara from "./bhaskara.js";/*  POO ej bhaskara */
 
 const calcular=()=>{ 
     const a = document.getElementById("inp_a").value; /* (const) constante no varia el dato y (let) si el dato solo vive en un proceso */
