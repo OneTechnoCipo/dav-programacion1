@@ -1,0 +1,63 @@
+<!DOCTYPE html> <!-- POO ej bhaskara -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POO Calculo de superficies</title>
+    <link rel="stylesheet" href="bootstrap.min.css"><!-- tema morph -->
+    <link rel="shortcut icon" href="https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-1/p200x200/111385670_105137907954156_1197422310586610856_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=7206a8&_nc_ohc=g0gUPbVua4EAX9Z5Lqd&_nc_ht=scontent.faep9-2.fna&oh=24b70faf147e4657e8d5e79c3e368288&oe=61568062"><!-- ICONITO PIOLA -->
+</head>
+<body>
+        
+    <nav class="navbar navbar-dark bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Calculo de superficies</a>
+        </div>
+    </nav>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-4">
+            <div class="mb-3">
+                <label class="form-label">VALOR A</label>
+                <input id="inp_a" class="form-control" type="number" placeholder="ingrese datos" name="" id="">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">BASE</label>
+                <input id="inp_b" class="form-control" type="number" placeholder="ingrese datos" name="" id="">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">H</label>
+                <input id="inp_c" class="form-control" type="number" placeholder="ingrese datos" name="" id="">
+            </div>
+            <button id="btn-calcular" class="btn btn-success">Calcular Trapecio</button>
+        </div>
+
+
+        <div class="col-4">
+            <div class="mb-3">
+                <label class="form-label">BASE TRIANGULO</label>
+                <input id="inp_b2" class="form-control" type="number" placeholder="ingrese datos" name="" id="">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Altura</label>
+                <input id="inp_c2" class="form-control" type="number" placeholder="ingrese datos" name="" id="">
+            </div>
+            <button id="btn-calcular2" class="btn btn-success">Calcular Triangulo</button>
+
+        </div>
+        <div class="col-8">
+            <h3   class="text-success" id="resultado"></h3>
+            <h3   class="text-success" id="resultadotriangulo"></h3>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+    <script src="main.js" type="module"></script>
+</body>
+</html>
