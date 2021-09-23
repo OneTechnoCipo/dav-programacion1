@@ -1,0 +1,72 @@
+<!DOCTYPE html><!-- POO ej bhaskara -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase</title>
+    <link rel="stylesheet" href="bootstrap.min.css"><!-- tema morph -->
+    <link rel="shortcut icon" href="https://scontent.faep9-2.fna.fbcdn.net/v/t1.6435-1/p200x200/111385670_105137907954156_1197422310586610856_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=7206a8&_nc_ohc=g0gUPbVua4EAX9Z5Lqd&_nc_ht=scontent.faep9-2.fna&oh=24b70faf147e4657e8d5e79c3e368288&oe=61568062"><!-- ICONITO PIOLA -->
+</head>
+<body>
+        
+    <nav class="navbar navbar-dark bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Firebase</a>
+        </div>
+    </nav>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-4">
+            <div class="mb-3">
+                <label class="form-label">Nombre</label>
+                <input id="inp_nombre" placeholder="INGRESE NOMBRE" class="form-control" type="text" name="" id="">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Apellido</label>
+                <input id="inp_apellido" placeholder="INGRESE APELLIDO" class="form-control" type="text" name="" id="">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Dni</label>
+                <input  id="inp_dni"  placeholder="INGRESE DNI" class="form-control" type="number" name="" id="">
+            </div>
+
+            <button id="btn-obtener" class="btn btn-success">Obtener datos</button>
+<!--             <button id="btn-borrar" onclick="eliminar()" class="btn btn-danger">Borrar datos</button>-->        
+        </div>
+        <div class="col-8">
+            <table class="table ">
+                <thead>
+                    <tr class="table-success">
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Apellido</th>
+                        <th scope="col">Dni</th>
+                        <th scope="col">Acción</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-tdbody">
+                    <tr class="table-dark">
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+            </table>
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+<script src="firebase.js" ></script>
+
+<script src="main.js" ></script>
+</body>
+</html>
